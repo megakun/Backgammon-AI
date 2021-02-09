@@ -1,0 +1,263 @@
+
+Welcome to ItrDFS
+Initial State:
+
+ Farmer on left:1
+ Fox on left:1
+ Chicken on left:1
+ Grain on left:1
+   Farmer on right:0
+   Fox on right:0
+   Chicken on right:0
+   Grain on right:0
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=0; COUNT = 0
+OPEN is now:
+ Farmer on left:0
+ Fox on left:1
+ Chicken on left:0
+ Grain on left:1
+   Farmer on right:1
+   Fox on right:0
+   Chicken on right:1
+   Grain on right:0
+ boat is on the right.
+
+len(OPEN)=1; len(CLOSED)=1; COUNT = 1
+OPEN is now:
+ Farmer on left:1
+ Fox on left:1
+ Chicken on left:0
+ Grain on left:1
+   Farmer on right:0
+   Fox on right:0
+   Chicken on right:1
+   Grain on right:0
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=2; COUNT = 2
+OPEN is now:
+ Farmer on left:0
+ Fox on left:0
+ Chicken on left:0
+ Grain on left:1
+   Farmer on right:1
+   Fox on right:1
+   Chicken on right:1
+   Grain on right:0
+ boat is on the right.
+, 
+ Farmer on left:0
+ Fox on left:1
+ Chicken on left:0
+ Grain on left:0
+   Farmer on right:1
+   Fox on right:0
+   Chicken on right:1
+   Grain on right:1
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=3; COUNT = 3
+OPEN is now:
+ Farmer on left:1
+ Fox on left:0
+ Chicken on left:1
+ Grain on left:1
+   Farmer on right:0
+   Fox on right:1
+   Chicken on right:0
+   Grain on right:0
+ boat is on the left.
+,
+ Farmer on left:0
+ Fox on left:1
+ Chicken on left:0
+ Grain on left:0
+   Farmer on right:1
+   Fox on right:0
+   Chicken on right:1
+   Grain on right:1
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=4; COUNT = 4
+OPEN is now:
+ Farmer on left:0
+ Fox on left:0
+ Chicken on left:1
+ Grain on left:0
+   Farmer on right:1
+   Fox on right:1
+   Chicken on right:0
+   Grain on right:1
+ boat is on the right.
+,
+ Farmer on left:0
+ Fox on left:1
+ Chicken on left:0
+ Grain on left:0
+   Farmer on right:1
+   Fox on right:0
+   Chicken on right:1
+   Grain on right:1
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=5; COUNT = 5
+OPEN is now:
+ Farmer on left:1
+ Fox on left:0
+ Chicken on left:1
+ Grain on left:0
+   Farmer on right:0
+   Fox on right:1
+   Chicken on right:0
+   Grain on right:1
+ boat is on the left.
+,
+ Farmer on left:1
+ Fox on left:1
+ Chicken on left:1
+ Grain on left:0
+   Farmer on right:0
+   Fox on right:0
+   Chicken on right:0
+   Grain on right:1
+ boat is on the left.
+,
+ Farmer on left:0
+ Fox on left:1
+ Chicken on left:0
+ Grain on left:0
+   Farmer on right:1
+   Fox on right:0
+   Chicken on right:1
+   Grain on right:1
+ boat is on the right.
+
+len(OPEN)=3; len(CLOSED)=6; COUNT = 6
+OPEN is now: 
+ Farmer on left:0
+ Fox on left:0
+ Chicken on left:0
+ Grain on left:0
+   Farmer on right:1
+   Fox on right:1
+   Chicken on right:1
+   Grain on right:1
+ boat is on the right.
+,
+ Farmer on left:1
+ Fox on left:1
+ Chicken on left:1
+ Grain on left:0
+   Farmer on right:0
+   Fox on right:0
+   Chicken on right:0
+   Grain on right:1
+ boat is on the left.
+,
+ Farmer on left:0
+ Fox on left:1
+ Chicken on left:0
+ Grain on left:0
+   Farmer on right:1
+   Fox on right:0
+   Chicken on right:1
+   Grain on right:1
+ boat is on the right.
+
+len(OPEN)=3; len(CLOSED)=7; COUNT = 7
+You have made it! Farmer and Chicken and Fox and Grain crossthe river and unharm!
+Solution path: 
+
+ Farmer on left:1
+ Fox on left:1
+ Chicken on left:1
+ Grain on left:1
+   Farmer on right:0
+   Fox on right:0
+   Chicken on right:0
+   Grain on right:0
+ boat is on the left.
+
+
+ Farmer on left:0
+ Fox on left:1
+ Chicken on left:0
+ Grain on left:1
+   Farmer on right:1
+   Fox on right:0
+   Chicken on right:1
+   Grain on right:0
+ boat is on the right.
+
+
+ Farmer on left:1
+ Fox on left:1
+ Chicken on left:0
+ Grain on left:1
+   Farmer on right:0
+   Fox on right:0
+   Chicken on right:1
+   Grain on right:0
+ boat is on the left.
+
+
+ Farmer on left:0
+ Fox on left:0
+ Chicken on left:0
+ Grain on left:1
+   Farmer on right:1
+   Fox on right:1
+   Chicken on right:1
+   Grain on right:0
+ boat is on the right.
+
+
+ Farmer on left:1
+ Fox on left:0
+ Chicken on left:1
+ Grain on left:1
+   Farmer on right:0
+   Fox on right:1
+   Chicken on right:0
+   Grain on right:0
+ boat is on the left.
+
+
+ Farmer on left:0
+ Fox on left:0
+ Chicken on left:1
+ Grain on left:0
+   Farmer on right:1
+   Fox on right:1
+   Chicken on right:0
+   Grain on right:1
+ boat is on the right.
+
+
+ Farmer on left:1
+ Fox on left:0
+ Chicken on left:1
+ Grain on left:0
+   Farmer on right:0
+   Fox on right:1
+   Chicken on right:0
+   Grain on right:1
+ boat is on the left.
+
+
+ Farmer on left:0
+ Fox on left:0
+ Chicken on left:0
+ Grain on left:0
+   Farmer on right:1
+   Fox on right:1
+   Chicken on right:1
+   Grain on right:1
+ boat is on the right.
+
+Length of solution path found: 7 edges
+7 states expanded.
+MAX_OPEN_LENGTH = 3
+PS F:\study\WI 21\cse415\a2_starter\a2-starter-code>

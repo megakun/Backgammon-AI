@@ -1,0 +1,182 @@
+
+Welcome to BFS
+Initial State:
+
+ M on left:3
+ C on left:3
+   M on right:0
+   C on right:0
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=0; COUNT = 0
+OPEN is now:
+ M on left:0
+ C on left:3
+   M on right:3
+   C on right:0
+ boat is on the right.
+,
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=1; COUNT = 1
+OPEN is now:
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+len(OPEN)=1; len(CLOSED)=2; COUNT = 2
+OPEN is now:
+ M on left:3
+ C on left:2
+   M on right:0
+   C on right:1
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=3; COUNT = 3
+OPEN is now:
+ M on left:0
+ C on left:2
+   M on right:3
+   C on right:1
+ boat is on the right.
+,
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=4; COUNT = 4
+OPEN is now:
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+,
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the left.
+
+len(OPEN)=2; len(CLOSED)=5; COUNT = 5
+OPEN is now:
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the left.
+,
+ M on left:3
+ C on left:1
+   M on right:0
+   C on right:2
+ boat is on the left.
+
+len(OPEN)=2; len(CLOSED)=6; COUNT = 6
+OPEN is now:
+ M on left:3
+ C on left:1
+   M on right:0
+   C on right:2
+ boat is on the left.
+,
+ M on left:0
+ C on left:1
+   M on right:3
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=2; len(CLOSED)=7; COUNT = 7
+OPEN is now:
+ M on left:0
+ C on left:1
+   M on right:3
+   C on right:2
+ boat is on the right.
+
+len(OPEN)=1; len(CLOSED)=8; COUNT = 8
+OPEN is now:
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the left.
+
+len(OPEN)=1; len(CLOSED)=9; COUNT = 9
+OPEN is now:
+ M on left:0
+ C on left:0
+   M on right:3
+   C on right:3
+ boat is on the right.
+
+len(OPEN)=1; len(CLOSED)=10; COUNT = 10
+Congratulations on successfully guiding the missionaries and cannibals across the river!
+Solution path:
+
+ M on left:3
+ C on left:3
+   M on right:0
+   C on right:0
+ boat is on the left.
+
+
+ M on left:2
+ C on left:2
+   M on right:1
+   C on right:1
+ boat is on the right.
+
+
+ M on left:3
+ C on left:2
+   M on right:0
+   C on right:1
+ boat is on the left.
+
+
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the right.
+
+
+ M on left:3
+ C on left:1
+   M on right:0
+   C on right:2
+ boat is on the left.
+
+
+ M on left:0
+ C on left:1
+   M on right:3
+   C on right:2
+ boat is on the right.
+
+
+ M on left:1
+ C on left:1
+   M on right:2
+   C on right:2
+ boat is on the left.
+
+
+ M on left:0
+ C on left:0
+   M on right:3
+   C on right:3
+ boat is on the right.
+
+Length of solution path found: 7 edges
+10 states examined.
+MAX_OPEN_LENGTH = 2
